@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(167 167 255);
 }
 
 .container {
@@ -25,14 +25,15 @@ body {
 
 .img-form {
     background-color: rgb(167 167 255);
-    padding: 10px;
     border-radius: 50px 0px 0px 50px;
     display: none;
     justify-content: center;
 }
 
 .img-form img {
-    width: 500px;
+  width: 500px;
+  border-radius: 50px 0px 0px 50px;
+  
 }
 
 form {
