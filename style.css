@@ -23,17 +23,17 @@ body {
     margin-top: 10px;
 }
 
-.img-form {
-    background-color: rgb(167 167 255);
-    border-radius: 50px 0px 0px 50px;
-    display: none;
-    justify-content: center;
-}
-
-.img-form img {
+svg {
   width: 500px;
+  height: 479px;
+  background-color: rgb(167 167 255);
   border-radius: 50px 0px 0px 50px;
+  padding: 0px 10px;
   
+  display: none;
+  justify-content: center;
+  border-radius: 50px 0px 0px 50px;
+  background-color: rgb(255 255 255);
 }
 
 form {
@@ -213,8 +213,8 @@ p a:hover {
     transition: all .3s ease-out;
 }
 
-@media (min-width: 1130px) {
-    .img-form {
+@media (min-width: 1000px) {
+    svg {
         display: flex;
     }
 
