@@ -41,7 +41,7 @@ function entrar() {
 }
 
 if (email.value == userValid.email && senha.value == userValid.senha) {
-  window.location.href = ""
+  window.location.href = "";
 }else{
   email.focus()
 }
